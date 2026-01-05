@@ -516,7 +516,11 @@
         },
         "Fabric.LocalFolderSaveBehavior": {
           "type": "string",
-          "enum": ["prompt", "always", "never"],
+          "enum": [
+            "prompt",
+            "always",
+            "never"
+          ],
           "enumDescriptions": [
             "%extension.configuration.LocalFolderSaveBehavior.prompt%",
             "%extension.configuration.LocalFolderSaveBehavior.always%",
@@ -542,7 +546,9 @@
           "type": "boolean",
           "default": false,
           "description": "%extension.configuration.ShowFolders.description%",
-          "tags": ["preview"]
+          "tags": [
+            "preview"
+          ]
         }
       }
     },
@@ -609,5 +615,8 @@
     "fs-extra": "^11.1.1",
     "jszip": "^3.10.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }

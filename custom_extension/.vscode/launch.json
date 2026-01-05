@@ -1,0 +1,31 @@
+{
+  // Consolidated from extension/.vscode/launch.json
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CUSTOM extension (vscode-fabric)",
+      "type": "extensionHost",
+      "trace": true,
+      "request": "launch",
+      "preLaunchTask": "pre-build",
+      "args": [
+        //"--disable-extensions",
+        "--extensionDevelopmentPath=${workspaceFolder}",
+      ],
+      "outFiles": [
+        "${workspaceFolder}/**/*",
+        "${workspaceFolder}/../extension/**/*",
+        "${workspaceFolder}/../api/**/*",
+        "${workspaceFolder}/../util/**/*"
+      ],
+      // "sourceMapPathOverrides": {
+      //   "webpack://vscode-fabric/*": "${workspaceFolder}/extension/*"
+      // },
+      "env": {
+        // Enable these selectively for test hooks/fakes.
+        // "VSCODE_FABRIC_ENABLE_TEST_HOOKS": "true",
+        // "VSCODE_FABRIC_ENABLE_TEST_FAKES": "true"
+      }
+    }
+  ]
+}

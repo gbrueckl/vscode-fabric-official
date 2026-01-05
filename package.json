@@ -4,7 +4,8 @@
   "workspaces": [
     "api",
     "util",
-    "extension"
+    "extension",
+    "custom_extension"
   ],
   "scripts": {
     "build": "npm run build --ws && npm run test:compile --ws",

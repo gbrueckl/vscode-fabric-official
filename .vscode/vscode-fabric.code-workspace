@@ -15,7 +15,11 @@
 		{
 			"name": "🚀 @microsoft/vscode-fabric-util",
 			"path": "../util"
-		}
+		},
+		{
+			"name": "📦 custom-extension",
+			"path": "../custom_extension"
+		},
 	],
 	"settings": {
 		"files.exclude": {

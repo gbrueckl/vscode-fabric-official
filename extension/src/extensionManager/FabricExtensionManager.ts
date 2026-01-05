@@ -10,6 +10,7 @@ import { ILogger, TelemetryService } from '@microsoft/vscode-fabric-util';
 const satelliteExtensionIds = [
     'fabric.vscode-fabric-functions',
     'fabric.vscode-testplatform',
+    'gbrueckl.vscode-fabric-custom',
 ];
 
 const internalSatelliteIds = [
